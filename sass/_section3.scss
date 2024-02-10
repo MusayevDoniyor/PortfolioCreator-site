@@ -1,0 +1,390 @@
+// * For big screens
+@media screen and (min-width:1024px) {
+    .section3 {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        margin-top: -5px;
+        justify-content: center;
+    }
+
+    .main-s3 {
+        width: 98%;
+    }
+
+    .main-title-s3 {
+        width: 97%;
+        height: 242px;
+        margin: auto;
+        margin-bottom: 25px;
+
+        h5 {
+            width: 149.19px;
+            height: 22px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: 4px;
+            color: rgba(255, 94, 105, 1);
+            margin: 25px auto 15px;
+        }
+
+        .heading-s3 {
+            width: 575px;
+            height: 130px;
+
+            h2 {
+                font-size: 54px;
+                font-weight: 700;
+                line-height: 59.4px;
+                letter-spacing: 1px;
+                color: rgba(0, 0, 0, 1);
+            }
+
+        }
+
+        a {
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 1);
+            padding: 14px 16px;
+            line-height: 18px;
+            font-weight: 400;
+            font-size: 18px;
+            color: white;
+            margin-left: 76%;
+        }
+    }
+
+    .projects-div-s3 {
+        width: 97%;
+        height: 468px;
+        display: flex;
+        margin-top: 75px;
+        justify-content: space-around;
+
+        .box {
+            width: auto;
+            height: 468px;
+            margin: 0 30px 20px;
+
+            img {
+                width: auto;
+                height: auto;
+            }
+
+            h6 {
+                width: auto;
+                height: 14px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 14px;
+                letter-spacing: 4px;
+                color: rgba(60, 70, 255, 1);
+                margin: 10px 0;
+            }
+
+            h5 {
+                width: auto;
+                height: 27px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26.4px;
+                margin: 5px 0;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            a {
+                width: auto;
+                height: 16px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                color: rgba(0, 0, 0, 1);
+
+                &::after {
+                    content: url(../img/right-row-icon.svg);
+                    padding: 0 15px 0;
+                }
+            }
+        }
+    }
+
+    .row-s3 {
+        width: auto;
+        height: 54px;
+        text-align: end;
+        margin-top: 25px;
+        margin-right: 80px;
+
+        a {
+            padding: 20px 22px;
+            background-color: rgba(0, 0, 0, 1);
+            margin: 0 5px;
+        }
+    }
+}
+
+
+// * For Tablets
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section3 {
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        margin-top: -5px;
+        justify-content: center;
+    }
+
+    .main-s3 {
+        width: 97%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .main-title-s3 {
+        width: 97%;
+        height: auto;
+        margin: 0 auto -75px;
+
+        h5 {
+            width: 149.19px;
+            height: 22px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: 4px;
+            color: rgba(255, 94, 105, 1);
+            margin: 25px auto 15px;
+        }
+
+        .heading-s3 {
+            width: 575px;
+            height: 130px;
+            margin: 0 0 75px;
+
+            h2 {
+                font-size: 54px;
+                font-weight: 700;
+                line-height: 59.4px;
+                letter-spacing: 1px;
+                color: rgba(0, 0, 0, 1);
+            }
+        }
+
+        a {
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 1);
+            padding: 14px 16px;
+            line-height: 18px;
+            font-weight: 400;
+            font-size: 18px;
+            color: white;
+        }
+    }
+
+    .projects-div-s3 {
+        width: 97%;
+        height: 468px;
+        margin: 100px auto 65%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .box {
+            width: auto;
+            height: 468px;
+            margin: 0 auto 50px;
+            text-align: center;
+
+            img {
+                width: auto;
+                height: auto;
+                margin-bottom: 20px;
+            }
+
+            h6 {
+                width: auto;
+                height: 14px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 14px;
+                letter-spacing: 4px;
+                color: rgba(60, 70, 255, 1);
+            }
+
+            h5 {
+                width: auto;
+                height: 27px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26.4px;
+                margin: 5px 0;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            a {
+                width: auto;
+                height: 16px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                color: rgba(0, 0, 0, 1);
+
+                &::after {
+                    content: url(../img/right-row-icon.svg);
+                    padding: 0 15px 0;
+                }
+            }
+        }
+    }
+
+    .row-s3 {
+        width: auto;
+        height: 54px;
+        text-align: end;
+        margin-top: 25px;
+        margin-right: 75px;
+
+        a {
+            padding: 20px 22px;
+            background-color: rgba(0, 0, 0, 1);
+            margin: 0 5px;
+        }
+    }
+}
+
+// * For Smartphones
+@media only screen and (min-width:320px) and (max-width: 767px) {
+    .section3 {
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        margin-top: -5px;
+        justify-content: center;
+    }
+
+    .main-s3 {
+        width: 97%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .main-title-s3 {
+        width: 97%;
+        height: auto;
+        margin: 0 auto -75px;
+
+        h5 {
+            width: auto;
+            height: 22px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 4px;
+            color: rgba(255, 94, 105, 1);
+            margin: 25px 0;
+            text-align: center;
+        }
+
+        .heading-s3 {
+            width: auto;
+            height: auto;
+            margin: 0 0 75px;
+            text-align: center;
+
+            h2 {
+                font-size: 44px;
+                font-weight: 700;
+                line-height: 50px;
+                letter-spacing: 1px;
+                color: rgba(0, 0, 0, 1);
+            }
+        }
+
+        a {
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 1);
+            padding: 12px 14px;
+            line-height: 16px;
+            font-weight: 400;
+            font-size: 16px;
+            color: white;
+            margin-left: 25%;
+        }
+    }
+
+    .projects-div-s3 {
+        width: 97%;
+        height: 468px;
+        margin: -25% auto -100px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .box {
+            width: auto;
+            height: auto;
+            margin: 0 auto 50px;
+            text-align: center;
+
+            img {
+                max-width: 200px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+
+            h6 {
+                width: auto;
+                height: auto;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 12px;
+                letter-spacing: 4px;
+                color: rgba(60, 70, 255, 1);
+            }
+
+            h5 {
+                width: auto;
+                height: auto;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 24px;
+                margin: 5px auto;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            a {
+                width: auto;
+                height: 16px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                color: rgba(0, 0, 0, 1);
+
+                &::after {
+                    content: url(../img/right-row-icon.svg);
+                    padding: 0 15px 0;
+                }
+            }
+        }
+    }
+
+    .row-s3 {
+        width: auto;
+        height: 54px;
+        text-align: end;
+        margin-top: -100px;
+        margin-right: 75px;
+
+        a {
+            padding: 15px 17px;
+            background-color: rgba(0, 0, 0, 1);
+            margin: 0 7%;
+        }
+    }
+}
